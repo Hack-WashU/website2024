@@ -79,4 +79,8 @@ table {
 	font-family: 'spartan-bold';
 	src: url('./league-spartan/LeagueSpartan-Bold.ttf') format('truetype');
 	}
-	
+
+@font-face {
+	font-family: 'spartan-sb';
+	src: url('./league-spartan/LeagueSpartan-SemiBold.ttf') format('truetype');
+	}
