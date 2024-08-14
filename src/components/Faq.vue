@@ -6,7 +6,10 @@
       :key="index"
       :faq="faq"
     />
+    <img id="leaves-1" src="/src/assets/leaves-2.png"/>
+    <img id="leaves-2" src="/src/assets/leaves-2.png"/>
   </div>
+
 </template>
 
 <script>
@@ -82,5 +85,25 @@
     align-items: center; 
     margin-bottom: 2vw;
 }
+
+#leaves-2{
+    position: absolute;
+    transform: scaleX(-1) scaleY(-1);
+    right: 0vw;
+    top: 20vw;
+    width: 48vw;
+    height: 32vw;
+
+}
+
+#leaves-1{
+    position: absolute;
+    transform: scaleY(-1);
+    top: 20vw;
+    width: 48vw;
+    height: 32vw;
+
+}
+
 
 </style>

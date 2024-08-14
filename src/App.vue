@@ -17,7 +17,8 @@ import Footnotes from "./components/Footnotes.vue";
   <divTracks />
   <Contact />
   <Privacy />
-  <faq />
   <sponsor />
+  <faq />
+
   <Footnotes />
 </template>

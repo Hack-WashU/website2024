@@ -1,7 +1,6 @@
 <template>
 <div class="contact-parent">
-    <img id="contact-leaves-1" src="/src/assets/leaves-2.png"/>
-    <img id="contact-leaves-2" src="/src/assets/leaves-2.png"/>
+
     <a href="https://www.instagram.com/hackwashu/?hl=en"><img id="contact-insta" src="/src/assets/instagram_icon.png"></a>
     <a href="https://www.linkedin.com/company/hack-washu"><img id="contact-linkedin" src="/src/assets/linkedin-icon.png"></a>
     <a href="mailto:hackwashu@gmail.com"><img id="contact-gmail" src="/src/assets/gmail-icon.png"></a>
@@ -14,24 +13,6 @@
  
 <style scoped>
 
-#contact-leaves-2{
-    position: absolute;
-    transform: scaleX(-1) scaleY(-1);
-    right: 0vw;
-    top: 20vw;
-    width: 48vw;
-    height: 32vw;
-
-}
-
-#contact-leaves-1{
-    position: absolute;
-    transform: scaleY(-1);
-    top: 20vw;
-    width: 48vw;
-    height: 32vw;
-
-}
 
 .contact-text-4{
     position: absolute;
@@ -76,7 +57,7 @@
     height: 10vw;
     width: 10vw;
     left: 26.5vw;
-    top: 30vw;
+    top: 32vw;
 }
 
 #contact-insta{
@@ -84,7 +65,7 @@
     height: 10vw;
     width: 10vw;
     left: 26.5vw;
-    top: 8vw;
+    top: 6vw;
 }
 
 .contact-text-1{
