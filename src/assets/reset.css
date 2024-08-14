@@ -78,6 +78,7 @@ table {
 @font-face {
 	font-family: 'spartan-bold';
 	src: url('./league-spartan/LeagueSpartan-Bold.ttf') format('truetype');
+	font-size: 1em;
 	}
 
 @font-face {

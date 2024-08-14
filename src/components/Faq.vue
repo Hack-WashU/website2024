@@ -27,7 +27,7 @@
                         answer: 'bruh you don\'t even know when the hackathon is?',
                     },
                     {
-                        question: 'who can attend?',
+                        question: 'Who can attend?',
                         answer: 'idk... but not you',
                     },
                     {
@@ -35,11 +35,11 @@
                         answer: 'Your mom...',
                     },
                     {
-                        question: 'is HackWashU in-person?',
+                        question: 'Is HackWashU in-person?',
                         answer: 'You think we\'d let you in person?',
                     },
                     {
-                        question: 'is HackWashU free?',
+                        question: 'Is HackWashU free?',
                         answer: 'Pay up',
                     },
                     {
@@ -51,7 +51,7 @@
                         answer: 'You\'ll get a sticker',
                     },
                     {
-                        question: 'i have more questions',
+                        question: 'I have more questions',
                         answer: 'too bad',
                     }
                 ],

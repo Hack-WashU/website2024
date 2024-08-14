@@ -50,6 +50,7 @@
     font-size: 1.8vw;
     width: 100%;
     cursor: pointer;
+    font-family: 'spartan-sb', serif;
   }
   
   .faq-answer {
@@ -59,6 +60,7 @@
     text-align: left;
     width: 100%;
     display: flex;
+    font-size: 1vw;
   }
   </style>
   

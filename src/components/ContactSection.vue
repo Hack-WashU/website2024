@@ -2,9 +2,9 @@
 <div class="contact-parent">
     <img id="contact-leaves-1" src="/src/assets/leaves-2.png"/>
     <img id="contact-leaves-2" src="/src/assets/leaves-2.png"/>
-    <a href="https://www.instagram.com/hackwashu/?hl=en"><img id="contact-insta" src="/src/assets/insta.png"></a>
-    <a href="https://www.linkedin.com/company/hack-washu"><img id="contact-linkedin" src="/src/assets/linkedin.png"></a>
-    <a href="mailto:hackwashu@gmail.com"><img id="contact-gmail" src="/src/assets/gmail.png"></a>
+    <a href="https://www.instagram.com/hackwashu/?hl=en"><img id="contact-insta" src="/src/assets/instagram_icon.png"></a>
+    <a href="https://www.linkedin.com/company/hack-washu"><img id="contact-linkedin" src="/src/assets/linkedin-icon.png"></a>
+    <a href="mailto:hackwashu@gmail.com"><img id="contact-gmail" src="/src/assets/gmail-icon.png"></a>
     <h1 class="contact-text-1">CONTACT US</h1>
     <a href="https://www.instagram.com/hackwashu/?hl=en"><p class="contact-text-2">hackwashu</p></a>
     <a href="https://www.linkedin.com/company/hack-washu"><p class="contact-text-3">linkedin.com/company/hack-washu</p></a>
@@ -62,26 +62,26 @@
 
 #contact-linkedin{
     position: absolute;
-    height: 9vw;
-    width: 9vw;
+    height: 10vw;
+    width: 10vw;
     left: 26.5vw;
     top: 19vw;
 }
 
 #contact-gmail{
     position: absolute;
-    height: 7vw;
-    width: 8vw;
-    left: 26.8vw;
-    top: 32vw;
+    height: 10vw;
+    width: 10vw;
+    left: 26.5vw;
+    top: 30vw;
 }
 
 #contact-insta{
     position: absolute;
-    height: 12vw;
-    width: 12vw;
-    left: 25vw;
-    top: 6vw;
+    height: 10vw;
+    width: 10vw;
+    left: 26.5vw;
+    top: 8vw;
 }
 
 .contact-text-1{

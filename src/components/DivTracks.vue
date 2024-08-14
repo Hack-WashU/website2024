@@ -6,8 +6,8 @@
         <br>
         TRAVELER
     </h1>
-    <img src="/src/assets/greenRectangle.png" class="divtracks-greenRectangle-1"/>
-    <img src="/src/assets/purpleRectangle.png" class="divtracks-purpleRectangle-1"/>
+    <img src="/src/assets/green_button.png" class="divtracks-greenRectangle-1"/>
+    <img src="/src/assets/purple_button.png" class="divtracks-purpleRectangle-1"/>
     <p class="divtracks-text-2">emerging</p>
     <p class="divtracks-text-3">master</p>
     <img src="/src/assets/icon1.png" class="divtracks-icon1"/>
@@ -16,23 +16,17 @@
         WHICH TRACK
         WILL YOU CHOOSE?
     </h1>
-    <img src="/src/assets/yellowRectangle.png" class="divtracks-yellowRectangle-1"/>
-    <img src="/src/assets/purpleRectangle.png" class="divtracks-purpleRectangle-2"/>
-    <img src="/src/assets/greenRectangle.png" class="divtracks-greenRectangle-2"/>
+    <img src="/src/assets/yellow_button.png" class="divtracks-yellowRectangle-1"/>
+    <img src="/src/assets/purple_button.png" class="divtracks-purpleRectangle-2"/>
+    <img src="/src/assets/green_button.png" class="divtracks-greenRectangle-2"/>
     <p class="divtracks-text-5">
-        ARTIFICIAL
-        <br>
-        INTELLIGENCE
+        ARTIFICIAL INTELLIGENCE
     </p>
     <p class="divtracks-text-6">
-        VISUALLY
-        <br>
-        STUNNING
+        VISUALLY STUNNING
     </p>
     <p class="divtracks-text-7">
-        COMING
-        <br> 
-        SOON...
+        HEALTH AND WELLNESS
     </p>
 </div>
 
@@ -44,42 +38,42 @@
 
 .divtracks-yellowRectangle-1{
     position: absolute;
-    width: 28vw;
-    height: 10vw;
-    top: 42vw;
-    left: 36vw;
+    width: 50vw;
+    height: 20vw;
+    top: 36vw;
+    left: 25vw;
 }
 
 .divtracks-purpleRectangle-2{
     position: absolute;
-    width: 28vw;
-    height: 10vw;
-    top: 54vw;
-    left: 36vw;
+    width: 50vw;
+    height: 20vw;
+    top: 48vw;
+    left: 25vw;
 }
 
 .divtracks-greenRectangle-2{
     position: absolute;
-    width: 28vw;
-    height: 10vw;
-    top: 66vw;
-    left: 36vw;
+    width: 50vw;
+    height: 20vw;
+    top: 60vw;
+    left: 25vw;
 }
 
 .divtracks-purpleRectangle-1{
     position: absolute;
     width: 24vw;
-    height: 10vw;
+    height: 15vw;
     top: 10vw;
-    right: 10vw;
+    right: 8vw;
 }
 
 .divtracks-greenRectangle-1{
     position: absolute;
     width: 24vw;
-    height: 10vw;
+    height: 15vw;
     top: 10vw;
-    left: 10vw;
+    left: 8vw;
 }
 
 .divtracks-icon2{
@@ -110,8 +104,8 @@
 
 .divtracks-text-2{
     position: absolute;
-    top: 13vw;
-    left: 13.75vw;
+    top: 15vw;
+    left: 12vw;
     color: #2B1853;
     font-size: 4vw;
     font-family: 'spartan-bold', sans-serif;
@@ -119,8 +113,8 @@
 
 .divtracks-text-3{
     position: absolute;
-    top: 13vw;
-    right: 15.25vw;
+    top: 15vw;
+    right: 14vw;
     color: #2B1853;
     font-size: 4vw;
     font-family: 'spartan-bold', sans-serif;
@@ -146,6 +140,7 @@
     text-align: center;
     width: 100vw;
     color: #2B1853;
+    white-space: nowrap;
 }
 
 .divtracks-text-6{
@@ -158,6 +153,7 @@
     text-align: center;
     width: 100vw;
     color: #2B1853;
+    white-space: nowrap;
 }
 
 .divtracks-text-7{
@@ -170,6 +166,7 @@
     text-align: center;
     width: 100vw;
     color: #2B1853;
+    white-space: nowrap;
 }
 
 .divtracks-parent{
