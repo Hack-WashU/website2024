@@ -8,7 +8,7 @@
     <h1 class="contact-text-1">CONTACT US</h1>
     <a href="https://www.instagram.com/hackwashu/?hl=en"><p class="contact-text-2">hackwashu</p></a>
     <a href="https://www.linkedin.com/company/hack-washu"><p class="contact-text-3">linkedin.com/company/hack-washu</p></a>
-    <a href="mailto:organizers@hackwashu.com"><p class="contact-text-4">hackwashu at gmail.com</p></a>
+    <a href="mailto:organizers@hackwashu.com"><p class="contact-text-4">organizers at hackwashu dot com</p></a>
 </div>
 </template>
  
@@ -35,16 +35,18 @@
 
 .contact-text-4{
     position: absolute;
-    font-family: 'spartan';
+    font-family: 'spartan', sans-serif;
+    font-weight: 300;
     font-size: 3vw;
     width: 100vw;
     left: 40vw;
-    top: 34vw;
+    top: 35vw;
 }
 
 .contact-text-3{
     position: absolute;
-    font-family: 'spartan';
+    font-family: 'spartan', sans-serif;
+    font-weight: 300;
     font-size: 3vw;
     width: 100vw;
     left: 40vw;
@@ -53,11 +55,12 @@
 
 .contact-text-2{
     position: absolute;
-    font-family: 'spartan';
+    font-family: 'spartan', sans-serif;
+    font-weight: 300;
     font-size: 3vw;
     width: 100vw;
     left: 40vw;
-    top: 10.75vw;
+    top: 8.75vw;
 }
 
 #contact-linkedin{

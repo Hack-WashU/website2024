@@ -98,7 +98,7 @@ export default defineComponent({
   position: absolute;
   z-index: 100;
   color: #2b1853;
-  font-family: 'spartan';
+  font-family: 'spartan-bold', sans-serif;
   font-size: 3vw;
 }
 
