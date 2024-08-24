@@ -79,7 +79,7 @@ export default defineComponent({
 
     <a href="https://wustl.az1.qualtrics.com/jfe/form/SV_1YusN9NvNukt3ZY">
       <div class="apply-apply-now">
-          <img id="apply-yellow-rectangle" src="/src/assets/yellowRectangle.png" />
+          <img id="apply-yellow-rectangle" src="/src/assets/yellow_button.png" />
           <h1 id="apply-text-2">apply now</h1>
       </div>
     </a>
@@ -90,8 +90,6 @@ export default defineComponent({
 #apply-yellow-rectangle{
   position: absolute;
   width: 22vw;
-  top: -0.5vw;
-  left: -2vw;
 }
 
 #apply-text-2 {
@@ -99,7 +97,7 @@ export default defineComponent({
   z-index: 100;
   color: #2b1853;
   font-family: 'spartan-bold', sans-serif;
-  font-size: 3vw;
+  font-size: 2.5vw;
 }
 
 .apply-apply-now {

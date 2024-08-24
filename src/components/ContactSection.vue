@@ -1,7 +1,7 @@
 <template>
 <div class="contact-parent">
 
-    <a href="https://www.instagram.com/hackwashu/?hl=en"><img id="contact-insta" src="/src/assets/instagram_icon.png"></a>
+    <a href="https://www.instagram.com/hackwashu/?hl=en"><img id="contact-insta" src="/src/assets/instagram-icon.png"></a>
     <a href="https://www.linkedin.com/company/hack-washu"><img id="contact-linkedin" src="/src/assets/linkedin-icon.png"></a>
     <a href="mailto:hackwashu@gmail.com"><img id="contact-gmail" src="/src/assets/gmail-icon.png"></a>
     <h1 class="contact-text-1">CONTACT US</h1>
