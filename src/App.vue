@@ -5,7 +5,6 @@ import Apply from "./components/ApplySection.vue";
 import Contact from "./components/ContactSection.vue";
 import Privacy from "./components/PrivacySection.vue";
 import divTracks from "./components/DivTracks.vue";
-import faq from "./components/Faq.vue";
 import sponsor from "./components/Sponsor.vue";
 import Footnotes from "./components/Footnotes.vue";
 </script>
@@ -18,7 +17,7 @@ import Footnotes from "./components/Footnotes.vue";
   <Contact />
   <Privacy />
   <sponsor />
-  <faq />
+  <!-- <faq /> -->
 
   <Footnotes />
 </template>
