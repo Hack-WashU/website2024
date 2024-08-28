@@ -2,14 +2,14 @@
 
 <template>
     <div class="sponsor-parent">
-        <div class="sponsor-left">
+        <div class="left-sponsor">
             <div class="star-sponsor-img"></div>
             <div class="star-title">STAR</div>
             <div class="sponsor-list">
                 Coming soon...
             </div>
         </div>
-        <div class="sponsor-right">
+        <div class="right-sponsor">
             <div class="sponsor-title">SPONSORS</div>
             <div class="celestial-title">CELESTIAL</div>
             <div class="sponsor-list">
