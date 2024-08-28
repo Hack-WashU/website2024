@@ -10,7 +10,7 @@
       <div class="right-body-content">
         <h1>SEND A CARRIER PIGEON</h1>
         <div class="contact-item">
-          <a href="https://www.instagram.com/hackwashu/?hl=en"><img id="contact-insta" src="/src/assets/instagram_icon.png"></a>
+          <a href="https://www.instagram.com/hackwashu/?hl=en"><img id="contact-insta" src="/src/assets/instagram-icon.png"></a>
           <a href="https://www.instagram.com/hackwashu/?hl=en"><p class="contact-text-2">@hackwashu</p></a>
         </div>
         <div class="contact-item">
