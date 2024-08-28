@@ -26,14 +26,14 @@
     height: 100vh;
     border-bottom: 0.5vh solid black;
 }
-.sponsor-left{
+.left-sponsor{
     flex: 38%;
     display: flex;
     flex-direction: column;
     height: 100%;
 }
 
-.sponsor-right{
+.right-sponsor{
     border-left: 0.25vw solid black;
     flex: 62%;
     display: flex;
