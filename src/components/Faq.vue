@@ -1,109 +1,111 @@
 <template>
- <div class="faq-list">
-    <h1 class="faq-text-1">FAQ</h1>
-    <faqItem
-      v-for="(faq, index) in faqs"
-      :key="index"
-      :faq="faq"
-    />
-    <img id="leaves-1" src="/src/assets/leaves-2.png"/>
-    <img id="leaves-2" src="/src/assets/leaves-2.png"/>
+  <div class="faq">
+      <h1 class="title">FREQUENTLY ASKED QUESTIONS</h1>
+      <div class="faq-wrapper">
+        <div v-for="(item, index) in faqItems" :key="index" class="faq-item">
+          <h2 class="question">{{ item.question }}</h2>
+          <p class="answer">{{ item.answer }}</p>
+        </div>
+      </div>
   </div>
 
 </template>
 
 <script>
-    import faqItem from "./faqItem.vue";
-    export default {
-        components: {
-            faqItem,
+export default {
+  data() {
+    return {
+      faqItems: [
+        {
+          question: "WHAT IS A HACK-A-THON?",
+          answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
-        data() {
-            return {
-                faqs: [
-                    {
-                        question: 'What is a hackathon?',
-                        answer: '...',
-                    },
-                    {
-                        question: 'When is HackWashU?',
-                        answer: 'bruh you don\'t even know when the hackathon is?',
-                    },
-                    {
-                        question: 'Who can attend?',
-                        answer: 'idk... but not you',
-                    },
-                    {
-                        question: 'What should I bring?',
-                        answer: 'Your mom...',
-                    },
-                    {
-                        question: 'Is HackWashU in-person?',
-                        answer: 'You think we\'d let you in person?',
-                    },
-                    {
-                        question: 'Is HackWashU free?',
-                        answer: 'Pay up',
-                    },
-                    {
-                        question: 'If I can\'t code, should I still come?',
-                        answer: 'No',
-                    },
-                    {
-                        question: 'Will there be swag?',
-                        answer: 'You\'ll get a sticker',
-                    },
-                    {
-                        question: 'I have more questions',
-                        answer: 'too bad',
-                    }
-                ],
-            };
+        {
+          question: "WHO CAN ATTEND?",
+          answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
+        {
+          question: "IS HACK WASHU IN-PERSON?",
+          answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+          question: "IS HACK WASHU FREE?",
+          answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+          question: "I CAN'T CODE, SHOULD I STILL COME?",
+          answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+          question: "I HAVE MORE QUESTIONS!!",
+          answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        }
+      ]
     };
+  }
+};
 </script>
 
 <style scoped>
-.faq-list{
-    position: relative;
-    height: auto;
-    margin-bottom: 4vw;
-    display: flex;
-    width: 100vw;
-    align-self: center;
-    flex-direction: column;
+.faq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  border-bottom: 0.25vw solid black;
+  width: 100vw;
 }
 
-.faq-text-1{
-    width: 100vw;
-    position: relative;
-    text-align: center;
-    font-family: 'FancyFont', serif;
-    font-size: 6vw;
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    margin-bottom: 2vw;
+.title {
+  font-size: 3.175vw;
+  font-weight: 400;
+  font-family: 'pf-videotext';
+  text-align: center;
+  margin: 4rem 0;
 }
 
-#leaves-2{
-    position: absolute;
-    transform: scaleX(-1) scaleY(-1);
-    right: 0vw;
-    top: 20vw;
-    width: 48vw;
-    height: 32vw;
+.faq-wrapper {
+  max-width: 600px;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.faq-item {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.question {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-family: 'pf-videotext';
+  text-align: left;
+  line-height: 1.5;
+  font-weight: 400;
 
 }
 
-#leaves-1{
-    position: absolute;
-    transform: scaleY(-1);
-    top: 20vw;
-    width: 48vw;
-    height: 32vw;
-
+.answer {
+  font-size: 1rem;
+  text-align: left;
+  line-height: 1.5;
 }
 
+@media (max-width: 600px) {
+  .title {
+    font-size: 1.5rem;
+  }
 
+  .question {
+    font-size: 1rem;
+  }
+
+  .answer {
+    font-size: 0.875rem;
+  }
+}
 </style>
+
