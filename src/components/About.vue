@@ -25,7 +25,6 @@
 </template>
  
 <style scoped>
-
 .p{
   background-color: rgba(185, 163, 213, 0.5);
   z-index: 1;
@@ -124,6 +123,14 @@
   padding-left: 0.25vw;
   line-height: 1.5;
   margin-bottom: 2vh;
+}
+
+@media(max-width: 700px){
+  .about{
+    flex-direction: column;
+    height: 57vh;
+  }
+
 }
 
 </style>
