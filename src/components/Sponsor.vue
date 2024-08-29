@@ -105,4 +105,22 @@
     font-size: 1vw;
 }
 
+@media (max-width: 700px) {
+    .star-sponsor-img{
+        display: none;
+    }
+    .star-title{
+        font-size: 7vw;
+        margin-top: 16.5vh;
+    }
+    .celestial-title{
+        font-size: 7vw;
+        margin-top: 8vh;
+    }
+    .sponsor-list{
+        font-size: 3vw;
+        margin-top: 3vh;
+    }
+}
+
 </style>
