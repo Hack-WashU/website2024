@@ -94,13 +94,26 @@ export default {
   line-height: 1.5;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
+  .faq{
+    background-color: #FFFFFF;
+    padding: 0;
+  }
   .title {
     font-size: 1.5rem;
+    margin-left: 0;
+    width: 77vw;
+    max-width: 400px;
+    font-size:  8vw;
+  }
+
+  .faq-wrapper {
+    max-width: 400px;
+    width: 77vw;
   }
 
   .question {
-    font-size: 1rem;
+    font-size: 5vw;
   }
 
   .answer {
