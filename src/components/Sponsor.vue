@@ -156,6 +156,7 @@
     }
     .right-sponsor{
         border-left: solid 0.7vw black;
+        padding-right: 0.1vw;
     }
     .celestial-title{
         font-size: 7vw;

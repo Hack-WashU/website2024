@@ -80,6 +80,7 @@
   height: auto;
   margin-top: 16vh;
   margin-left: 3vw;
+  padding-right: 0.5vw;
 }
 
 .right-body-content h1{
@@ -101,7 +102,6 @@
   align-items: center;
   margin-bottom: 2vh;
   margin-left: 0;
-
 }
 
 .contact-item img {

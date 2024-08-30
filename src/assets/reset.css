@@ -5,6 +5,10 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+/* 
+*{
+	outline: 1px solid red;
+} */
 
 html {
 	scroll-behavior: smooth;
