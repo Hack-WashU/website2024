@@ -160,6 +160,7 @@
     }
     .sponsor-title{
         left: 38%;
+        font-size: 11.5vw;
     }
     .celestial-title{
         font-size: 7vw;
