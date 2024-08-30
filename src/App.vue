@@ -19,5 +19,5 @@ import Footnotes from "./components/Footnotes.vue";
   <FAQS />
   <Contact />
   <Apply />
-  <Footnotes />
+  <!-- <Footnotes /> -->
 </template>
