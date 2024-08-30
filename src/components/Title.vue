@@ -71,9 +71,13 @@ onBeforeUnmount(() => {
           <div class="time-label">seconds</div>
         </div>
       </div>
+      <div class="left-scroll">
+        <img src="/src/assets/arrow.png" alt="Image">
+        <p> (SCROLL FOR INFO)</p>
+      </div>
     </div>
     <div class="right-body">
-      <div class="scroll">
+      <div class="right-scroll">
         <p> (SCROLL FOR INFO)</p>
         <img src="/src/assets/arrow.png" alt="Image">
       </div>
@@ -90,6 +94,7 @@ onBeforeUnmount(() => {
     padding: 0 0 0 12vw;
     height: 97.5vh;
     border-bottom: solid 0.25vw black;
+    background-color: #FFFFFF;
 }
 
 .left-body {
@@ -135,19 +140,23 @@ onBeforeUnmount(() => {
     color: black;
 }
 
+.left-scroll{
+    display: none;
+}
+
 .right-body {
     width: 35%;
     height: 97.5vh;
     border-left: solid 0.25vw black;
 }
 
-.scroll{
+.right-scroll{
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.scroll p{
+.right-scroll p{
     font-size: 1.75vw;
     font-family: 'pf-videotext';
     color: black;
@@ -156,7 +165,7 @@ onBeforeUnmount(() => {
     padding-left: 1vw;
 }
 
-.scroll img{
+.right-scroll img{
     height: 4vw;
     width: 3vw;
     padding-top: 1vw;
@@ -223,7 +232,86 @@ onBeforeUnmount(() => {
     font-family: 'open-sans';
 }
 
+@media(max-width: 700px){
+  .title{
+    height: 76vh;
+    padding: 0 0 0 8vw;
+    border-bottom: solid 0.7vw black;
+  }
+  .left-body{
+    width: 90%;
+    padding: 0 6vw 0 0;
+  }
+  .left-body-text h1{
+    font-size: 16vw;
+  }
+  .left-body-text p{
+    font-size: 6vw;
+    margin-top: 1vh;
+  }
+  .timer-text{
+    margin-right: 0vw;
+    padding: 0 0 0.8vw 0;
+    border-bottom: solid 0.7vw black;
+  }
+  .timer-text h2{
+    font-size: 4vw;
+    margin-top: 10vh;
+  }
+  .big{
+    font-size: 7vw;
+  }
+  .time{
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .time div{
+    width: 18vw;
+    height: 20vw;
+    border: none;
+    background-color: #D9D9D9;
+  }
+  .time .time-value{
+    margin-top: 2vw;
+    font-size: 10vw;
+  }
+  .time .time-label{
+    font-size: 3vw;
+    padding: 0 1.5vw 0.8vw 0;
+  }
 
+  .left-scroll{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 35vw;
+    margin-top: 7vh;
+}
+
+.left-scroll p{
+    font-size: 3.5vw;
+    font-family: 'pf-videotext';
+    color: black;
+    font-weight: 400;
+    margin-top: 2vh;
+}
+
+.left-scroll img{
+    height: 8vw;
+    width: 5vw;
+    margin-left: 21vw;
+}
+
+  .right-body{
+    width: 10%;
+    height: 100%;
+    border-left: solid 0.7vw black;
+  }
+  .right-scroll{
+    display: none;
+  }
+
+}
 
 
 </style>
