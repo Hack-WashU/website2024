@@ -47,7 +47,7 @@
   z-index: 2;
   position: relative;
   width: 24%;
-  height: auto;
+  height: 100%;
   border-right: 0.25vw solid black;
 }
 
@@ -87,6 +87,7 @@
   font-size: 3.5vw;
   color: black;
   padding-bottom: 4vh;
+  margin-left: 0;
 }
 
 .right-body-content p{
@@ -99,7 +100,7 @@
   display: flex;
   align-items: center;
   margin-bottom: 2vh;
-  margin-left: 7vw;
+  margin-left: 0;
 
 }
 
@@ -138,6 +139,9 @@
 }
 
 @media (max-width: 768px) {
+  .contact {
+    background-color: #ffffff;
+  }
   .contact-item img {
     width: 48px;
     height: 48px;
@@ -165,13 +169,28 @@
 }
 
 @media (max-width: 480px) {
+  .left-body h1{
+    margin-top: 25vh;
+    margin-left: 15.5vw;
+    font-size: 11.5vw;
+  }
+  .contact{
+    background-color: #ffffff;
+    height: 41vh;
+  }
+  .right-body-content{
+    margin-top: 0;
+    padding-top: 6vh;
+    padding-left: 8.7vw; 
+    margin-left: 0;
+  }
   .contact-item img {
     width: 40px;
     height: 40px;
   }
 
   .right-body-content h1{
-    font-size: 28px;
+    font-size: 7.1vw;
   }
 
   .contact-item p {
