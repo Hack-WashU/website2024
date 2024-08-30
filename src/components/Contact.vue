@@ -171,7 +171,7 @@
 @media (max-width: 480px) {
   .left-body h1{
     margin-top: 25vh;
-    margin-left: 15.5vw;
+    margin-left: 14.5vw;
     font-size: 11.5vw;
   }
   .contact{
