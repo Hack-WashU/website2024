@@ -236,7 +236,7 @@ onBeforeUnmount(() => {
   .title{
     height: 76vh;
     padding: 0 0 0 8vw;
-    border-bottom: solid 1vw black;
+    border-bottom: solid 0.7vw black;
   }
   .left-body{
     width: 90%;
@@ -252,7 +252,7 @@ onBeforeUnmount(() => {
   .timer-text{
     margin-right: 0vw;
     padding: 0 0 0.8vw 0;
-    border-bottom: solid 1vw black;
+    border-bottom: solid 0.7vw black;
   }
   .timer-text h2{
     font-size: 4vw;
@@ -305,7 +305,7 @@ onBeforeUnmount(() => {
   .right-body{
     width: 10%;
     height: 100%;
-    border-left: solid 1vw black;
+    border-left: solid 0.7vw black;
   }
   .right-scroll{
     display: none;
