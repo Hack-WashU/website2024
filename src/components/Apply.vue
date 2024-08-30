@@ -52,7 +52,7 @@ p {
     padding-top: 12vh;
     padding-left: 11.5vw;
     padding-right: 11.5vw;
-    border-bottom: solid 1vw black;
+    border-bottom: solid 0.7vw black;
   }
 
   .apply-button {
