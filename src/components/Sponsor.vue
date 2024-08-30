@@ -11,7 +11,7 @@
         <div class="right-sponsor">
             <div class="sponsor-title">SPONSORS</div>
             <div class="celestial-title">CELESTIAL</div>
-            <img src="/src/assets/ab-tech.png" class="ab-tech-logo" alt="ab-tech-logo" />
+            <img src="/src/assets/ab-tech-smaller.png" class="ab-tech-logo" alt="ab-tech-logo" />
             <img src="/src/assets/mastercard.png" class="mastercard-logo" alt="mastercard-logo" />
         </div>
     </div>
@@ -167,9 +167,9 @@
         margin-top: 8vh;
     }
     .ab-tech-logo{
-        width: 60vw;
-        height: 33.5vw;
-        left: 1vw;
+        width: 55vw;
+        height: 34vw;
+        left: 6vw;
         top: 7vh;
     }
     .mastercard-logo{
