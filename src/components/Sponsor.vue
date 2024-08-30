@@ -5,16 +5,14 @@
         <div class="left-sponsor">
             <div class="star-sponsor-img"></div>
             <div class="star-title">STAR</div>
-            <div class="sponsor-list">
-                Coming soon...
-            </div>
+            <img src="/src/assets/rga.png" class="rga-logo" alt="rga-logo" />
+
         </div>
         <div class="right-sponsor">
             <div class="sponsor-title">SPONSORS</div>
             <div class="celestial-title">CELESTIAL</div>
-            <div class="sponsor-list">
-                Coming soon...
-            </div>
+            <img src="/src/assets/ab-tech.png" class="ab-tech-logo" alt="ab-tech-logo" />
+            <img src="/src/assets/mastercard.png" class="mastercard-logo" alt="mastercard-logo" />
         </div>
     </div>
     
@@ -31,6 +29,7 @@
     display: flex;
     flex-direction: column;
     height: 100%;
+    padding-top: 20vh
 }
 
 .right-sponsor{
@@ -47,6 +46,7 @@
     margin-left: 1.5vw;
     margin-top: 4.4vh;
     background-color: rgb(195, 163, 226);
+    display: none;
 }
 
 .star-title{
@@ -65,6 +65,15 @@
     text-align: left;
     margin-left: 1.5vw;
     margin-top: 5.8vh;
+
+
+}
+
+.rga-logo{
+    width: 15vw;
+    height: 15vw;
+    display: flex;
+    align-self: center;
 }
 
 .sponsor-title{
@@ -88,21 +97,82 @@
 
 .celestial-title{
     font-size: 3.5vw;
-    margin-top: 10.5vh;
+    margin-top: 4vh;
     font-family: pf-videotext;
     text-align: center;
     width: 100%;
+}
+
+.ab-tech-logo{
+    position: relative;
+    left: 7vw;
+    width: 50vw;
+    height: 28vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mastercard-logo{
+    position: relative;
+    left: 7vw;
+    bottom: 10vh;
+    width:25vw;
+    height: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vh;
 }
 
 .sponsor-list{
     display: grid;
     grid-template-columns: auto;
     width: 100%;
+    height: 90%;
     text-align: left;
-    margin-left: 30.7%;
-    margin-top: 5.8vh;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3vh;
     font-family: open-sans;
     font-size: 1vw;
 }
+
+@media (max-width: 700px) {
+    .sponsor-parent{
+        border-bottom: solid 0.7vw black;
+        height: 65vh;
+        background-color: #FFFFFF;
+    }
+    .star-sponsor-img{
+        display: none;
+    }
+    .star-title{
+        font-size: 7vw;
+    }
+    .rga-logo{
+        width: 30vw;
+        height: 30vw;
+    }
+    .right-sponsor{
+        border-left: solid 0.7vw black;
+    }
+    .celestial-title{
+        font-size: 7vw;
+        margin-top: 8vh;
+    }
+    .ab-tech-logo{
+        width: 60vw;
+        height: 33.5vw;
+        top: 7vh;
+    }
+    .mastercard-logo{
+        width: 45vw;
+        height: 45vw;
+        top: 10vh;
+        left: 0vh;
+    }
+}
+
 
 </style>
