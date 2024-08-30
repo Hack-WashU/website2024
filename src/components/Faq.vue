@@ -98,6 +98,7 @@ export default {
   .faq{
     background-color: #FFFFFF;
     padding: 0;
+    border-bottom: solid 0.7vw black;
   }
   .title {
     font-size: 1.5rem;
