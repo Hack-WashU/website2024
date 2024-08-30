@@ -15,7 +15,7 @@
         </div>
         <div>
           <h1>EMERGING</h1>
-          <p>Gather 0-2 years of experience or hackathons.</p>
+          <p >Gather 0-2 years of experience or hackathons.</p>
         </div>
       </div>
       <div class="master">
@@ -56,6 +56,7 @@
   justify-content: space-between;
   height:150vh;
   border-bottom: 0.25vw solid black;
+  min-height: 75vh;
 }
 
 .left-body {
@@ -144,18 +145,20 @@
 
 .class {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding-top: 9vh;
   padding-right: 13vw;
+  align-items: center;
 }
 
-.c{
+.c {
   height: 37vh;
   width: 17.25vw;
   background-color: rgba(185, 163, 213, 0.5);
   display: flex;
   flex-direction: column;
-  align-items: center ;
+  align-items: center;
+  margin-right: 10px;
 }
 
 .c:hover {
@@ -192,6 +195,62 @@
   margin-top :2vh;
   margin-left: 4.5vw;
   font-weight:400;
+}
+
+@media (max-width: 700px){
+  .tracks {
+    background-color: #FFFFFF;
+    height: calc(75vh + 40vw);
+  }
+  .left-body{
+    padding-left: 5vw;
+    padding-top: 8vh;
+    width: 86vw;
+  }
+  .select-text h1{
+    font-size: 8vw;
+  }
+  .select-text p{
+    padding-top: 1.5vh;
+    font-size: 3vw;
+  }
+  .difficulty{
+    padding-top: 5vh;
+  }
+  .master{
+    margin-left: 4vw;
+  }
+  .star{
+    display: none;
+  }
+  .difficulty h1{
+    font-size: 3.8vw;
+  }
+  .difficulty p{
+    font-size: 2.5vw;
+  }
+  .level{
+    display: none;
+  }
+  .d{
+    height: 26vw;
+    width: 31vw;
+  }
+  .class{
+    padding-top: 4.4vh;
+    padding-right: 5.1vw;
+  }
+  .c{
+    height: 30.5vw;
+    width: 24vw;
+  }
+  .class p{
+    font-size: 3.3vw;
+  }
+  .right-body{
+    width: 14vw;
+  }
+
 }
 
 </style>
