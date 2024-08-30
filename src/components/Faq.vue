@@ -56,7 +56,7 @@ export default {
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
   border-bottom: 0.25vw solid black;
-  width: 100vw;
+  width: 100%;
 }
 
 .title {

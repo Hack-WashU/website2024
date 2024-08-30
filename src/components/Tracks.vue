@@ -45,12 +45,16 @@
     </div>
   </div>
   <div class="right-body">
-    <h1>TRACKS</h1>
+    <h1 class="part1">TRA</h1>
+    <h1 class="part2">CKS</h1>
   </div>
 </div>
 </template>
 
 <style scoped>
+*{
+  outline: solid 0.1px red;
+}
 .tracks {
   display: flex;
   justify-content: space-between;
@@ -185,7 +189,7 @@
   border-left: 0.25vw solid black;
 } 
 
-.right-body h1 {
+/* .right-body h1 {
   font-family: 'pf-videotext';
   font-size: 6vw;
   color: rgba(0, 0, 0, 0.5);
@@ -195,17 +199,39 @@
   margin-top :2vh;
   margin-left: 4.5vw;
   font-weight:400;
+} */
+
+ 
+.right-body h1 {
+  font-family: 'pf-videotext';
+  font-size: 6vw;
+  color: rgba(0, 0, 0, 0.5);
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+  display: inline-block;
+  font-weight:400;
+}
+
+.part1{
+  margin-top :2vh;
+  margin-left: 4.5vw;
+}
+
+.part2{
+  margin-top :2.1vh;
+  margin-left: 4.5vw;
 }
 
 @media (max-width: 700px){
   .tracks {
     background-color: #FFFFFF;
     height: calc(75vh + 40vw);
+    width: 100%;
   }
   .left-body{
     padding-left: 5vw;
     padding-top: 8vh;
-    width: 86vw;
+    width: 86%;
   }
   .select-text h1{
     font-size: 8vw;
@@ -248,7 +274,7 @@
     font-size: 3.3vw;
   }
   .right-body{
-    width: 14vw;
+    width: 10%;
   }
 
 }
