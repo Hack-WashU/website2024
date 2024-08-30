@@ -56,6 +56,7 @@
   justify-content: space-between;
   height:150vh;
   border-bottom: 0.25vw solid black;
+  min-height: 75vh;
 }
 
 .left-body {
@@ -144,19 +145,20 @@
 
 .class {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding-top: 9vh;
   padding-right: 13vw;
   align-items: center;
 }
 
-.c{
+.c {
   height: 37vh;
   width: 17.25vw;
   background-color: rgba(185, 163, 213, 0.5);
   display: flex;
   flex-direction: column;
-  align-items: center ;
+  align-items: center;
+  margin-right: 10px;
 }
 
 .c:hover {
@@ -196,9 +198,9 @@
 }
 
 @media (max-width: 700px){
-  .tracks{
+  .tracks {
     background-color: #FFFFFF;
-    height: 75vh;
+    height: calc(75vh + 40vw);
   }
   .left-body{
     padding-left: 5vw;
