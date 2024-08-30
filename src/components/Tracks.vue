@@ -294,6 +294,10 @@
   .right-body{
     width: 14vw;
   }
+  .right-body h1{
+    font-size: 11.5vw;
+    margin-left: 10vw;
+  }
 
 }
 
