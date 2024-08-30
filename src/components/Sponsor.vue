@@ -149,7 +149,10 @@
     }
     .star-title{
         font-size: 7vw;
-        margin-top: 16.5vh;
+    }
+    .rga-logo{
+        width: 30vw;
+        height: 30vw;
     }
     .right-sponsor{
         border-left: solid 0.7vw black;
@@ -158,9 +161,16 @@
         font-size: 7vw;
         margin-top: 8vh;
     }
-    .sponsor-list{
-        font-size: 3vw;
-        margin-top: 3vh;
+    .ab-tech-logo{
+        width: 60vw;
+        height: 33.5vw;
+        top: 7vh;
+    }
+    .mastercard-logo{
+        width: 45vw;
+        height: 45vw;
+        top: 10vh;
+        left: 0vh;
     }
 }
 
