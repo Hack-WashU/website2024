@@ -10,8 +10,13 @@
     <div class="difficulty">
       <div class="emerging">
         <div class="d">
-          <p class="star">*</p>
-          <p class="level">(level 1)</p>
+          <div class="icon-div">
+            <img class="difficulty-icon" src="../assets/icon1.png" alt="level1" />
+          </div>
+          <div class="words">
+            <p class="star">*</p>
+            <p class="level">(level 1)</p>
+        </div>
         </div>
         <div>
           <h1>EMERGING</h1>
@@ -20,8 +25,13 @@
       </div>
       <div class="master">
         <div class="d">
-          <p class="star">***</p>
-          <p class="level">(level 3)</p>
+          <div class="icon-div">
+            <img class="difficulty-icon" src="../assets/icon2.png" alt="level2" />
+          </div>
+          <div class="words">
+            <p class="star">***</p>
+            <p class="level">(level 3)</p>
+          </div>
         </div>
         <div>
           <h1>MASTER</h1>
@@ -31,15 +41,21 @@
     </div>
     <div class="class">
       <div class="ai center">
-        <div class="c"></div>
+        <div class="c">
+          <img class="tracks-icon" src="../assets/frogwizard.png" alt="ai" />
+        </div>
         <p>ARTIFICIAL INTELLIGENCE</p>
       </div>
       <div class="visuals center">
-        <div class="c"></div>
+        <div class="c">
+          <img class="tracks-icon" src="../assets/catwizard.png" alt="visuals" />
+        </div>
         <p>VISUALLY STUNNING</p>
       </div>
       <div class="health center">
-        <div class="c"></div>
+        <div class="c">
+          <img class="tracks-icon" src="../assets/bearwizard.png" alt="health" />
+        </div>
         <p>HEALTH & FITNESS</p>
       </div>
     </div>
@@ -91,6 +107,21 @@
   width: 23.75vw;
   background-color: rgba(185, 163, 213, 0.5);
   text-align: right;
+  display: flex;
+  align-items: center;
+}
+
+.difficulty-icon{
+  height: 10vw;
+  width: 10vw;
+}
+
+.icon-div{
+  width: 70%;
+}
+
+.words{
+  width: 30%;
 }
 
 .emerging .star{
@@ -158,11 +189,17 @@
   flex-direction: column;
   align-items: center;
   margin-right: 10px;
+  justify-content: center;
 }
 
 .c:hover {
   transition: ease-in-out 0.5s;
   background-color: #64D3F5;
+}
+
+.tracks-icon {
+  height: 24vw;
+  width: 20vw;
 }
 
 .class p {
@@ -221,21 +258,27 @@
   .master{
     margin-left: 4vw;
   }
-  .star{
-    display: none;
-  }
   .difficulty h1{
     font-size: 3.8vw;
   }
   .difficulty p{
     font-size: 2.5vw;
   }
-  .level{
-    display: none;
-  }
   .d{
     height: 26vw;
     width: 31vw;
+  }
+  .icon-div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .difficulty-icon{
+    height: 20vw;
+    width: 20vw;
+  }
+  .words{
+    display: none;
   }
   .class{
     padding-top: 4.4vh;
