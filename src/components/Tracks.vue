@@ -53,7 +53,6 @@
 <style scoped>
 .tracks {
   display: flex;
-  justify-content: space-between;
   height:150vh;
   border-bottom: 0.25vw solid black;
   min-height: 75vh;
@@ -183,6 +182,7 @@
   width: 17.5%;
   height: auto;
   border-left: 0.25vw solid black;
+  overflow: hidden;
 } 
 
 .right-body h1 {
@@ -206,6 +206,7 @@
     padding-left: 5vw;
     padding-top: 8vh;
     width: 86vw;
+    box-sizing: border-box;
   }
   .select-text h1{
     font-size: 8vw;
