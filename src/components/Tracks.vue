@@ -238,6 +238,7 @@
   .tracks {
     background-color: #FFFFFF;
     height: calc(75vh + 40vw);
+    border-bottom: solid 0.7vw black;
   }
   .left-body{
     padding-left: 5vw;
@@ -293,6 +294,7 @@
   }
   .right-body{
     width: 14vw;
+    border-left: 0.7vw solid black;
   }
   .right-body h1{
     font-size: 11.5vw;
