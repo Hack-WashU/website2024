@@ -177,6 +177,10 @@
   .contact{
     background-color: #ffffff;
     height: 41vh;
+    border-bottom: solid 0.7vw black;
+  }
+  .right-body{
+    border-left: solid 0.7vw black;
   }
   .right-body-content{
     margin-top: 0;
