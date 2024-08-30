@@ -126,4 +126,41 @@
   margin-bottom: 2vh;
 }
 
+@media (max-width: 700px){
+  .about{
+    background-color: #FFFFFF;
+    height: 57.9vh;
+    border-bottom: solid 0.7vw black;
+  }
+  .left-body{
+    width: 23.8%;
+    height: 100%;
+    border: none;
+  }
+  .right-body{
+    width: 76.2%;
+    height: 100%;
+    border-left: solid 0.7vw black;
+  }
+  .left-body h1{
+    position: relative;
+    font-size: 11.5vw;
+    right: 6vw;
+    bottom: 19vh;
+  }
+  .asset1, .asset2, .asset3, .asset4, .asset5{
+    display: none;
+  }
+  .setting{
+    margin-top: 8vh;
+    margin-left: 15vw;
+  }
+  .setting h1{
+    font-size: 6vw;
+  }
+  .setting p{
+    font-size: 3vw;
+  }
+}
+
 </style>
