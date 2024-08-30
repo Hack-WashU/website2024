@@ -18,27 +18,27 @@ export default {
       faqItems: [
         {
           question: "WHAT IS A HACK-A-THON?",
-          answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+          answer: "A hackathon is an invention marathon where students build software that fits in to event chosen categories. At Hack WashU, you can look forward to amazing prizes, engaging speakers, and tons of skilled mentors!"
         },
-        {
-          question: "WHO CAN ATTEND?",
-          answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-        },
+        // {
+        //   question: "WHO CAN ATTEND?",
+        //   answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        // },
         {
           question: "IS HACK WASHU IN-PERSON?",
-          answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+          answer: "Hack WashU will be in person. Please plan to be in St. Louis, MO for the whole weekend."
         },
         {
           question: "IS HACK WASHU FREE?",
-          answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+          answer: "YES!!! It's not just free, it rewards you! You will be able to collect swag, partake in workshops and speaker sessions, work with mentors, network with our sponsors, and more!"
         },
         {
           question: "I CAN'T CODE, SHOULD I STILL COME?",
-          answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+          answer: "YES!!! Hack WashU will be an inclusive event for all. There will be plenty of other introductory hackers just like you and it's a great opportunity to learn."
         },
         {
           question: "I HAVE MORE QUESTIONS!!",
-          answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+          answer: "Feel free to reach out to us at organizer@hackwashu.com!"
         }
       ]
     };
