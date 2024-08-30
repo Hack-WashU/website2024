@@ -164,6 +164,7 @@
     .ab-tech-logo{
         width: 60vw;
         height: 33.5vw;
+        left: 1vw;
         top: 7vh;
     }
     .mastercard-logo{
