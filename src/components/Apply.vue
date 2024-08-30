@@ -3,7 +3,7 @@
 <template>
 <div class="apply">
   <h1 class="title">FULFILL YOUR DESTINY.</h1>
-  <div class="apply-button">APPLY NOW!!</div>
+  <div class="apply-button"><a href="https://wustl.az1.qualtrics.com/jfe/form/SV_1YusN9NvNukt3ZY" style="text-decoration: none;">APPLY NOW!!</a></div>
   <p>(PRESS TO START)</p>
 </div>
 </template>
@@ -43,5 +43,38 @@ p {
   font-family: 'pf-videotext';
   font-size: 1.5vw;
   color: black;
+}
+
+@media (max-width: 700px) {
+  .apply {
+    background-color: #FFFFFF;
+    height: 40vh;
+    padding-top: 12vh;
+    padding-left: 11.5vw;
+    padding-right: 11.5vw;
+    border-bottom: solid 1vw black;
+  }
+
+  .apply-button {
+    margin-top: 6.2vh;
+    padding: 4vw 6vw 4vw 6vw;
+    font-size: 8.2vw;
+    width: 53vw;
+    height: 19.2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1.3vw black;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 8.2vw;
+  }
+
+  p {
+    margin-top: 1.5vh;
+    font-size: 5vw;
+  }
 }
 </style>
