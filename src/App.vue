@@ -7,7 +7,7 @@ import Sponsors from "./components/Sponsor.vue";
 import FAQS from "./components/Faq.vue";
 import Contact from "./components/Contact.vue";
 import Apply from "./components/Apply.vue";
-import Footnotes from "./components/Footnotes.vue";
+// import Footnotes from "./components/Footnotes.vue";
 </script>
 
 <template>
