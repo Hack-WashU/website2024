@@ -5,14 +5,14 @@
         <div class="left-sponsor">
             <div class="star-sponsor-img"></div>
             <div class="star-title">STAR</div>
-            <img src="/src/assets/rga.png" class="rga-logo" alt="rga-logo" />
+            <img src="/src/assets/mastercard.png" class="rga-logo" alt="rga-logo" />
 
         </div>
         <div class="right-sponsor">
             <div class="sponsor-title">SPONSORS</div>
             <div class="celestial-title">CELESTIAL</div>
             <img src="/src/assets/ab-tech-smaller.png" class="ab-tech-logo" alt="ab-tech-logo" />
-            <img src="/src/assets/mastercard.png" class="mastercard-logo" alt="mastercard-logo" />
+            <img src="/src/assets/rga.png" class="mastercard-logo" alt="mastercard-logo" />
         </div>
     </div>
     

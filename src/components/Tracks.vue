@@ -230,7 +230,7 @@
   transform-origin: 0 0;
   display: inline-block;
   margin-top :2vh;
-  margin-left: 4.5vw;
+  margin-left: 5vw;
   font-weight:400;
 }
 
