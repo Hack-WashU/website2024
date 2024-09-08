@@ -12,7 +12,7 @@ const timeRemaining = ref<TimeRemaining | null>(null);
 let intervalId: number | null = null;
 
 const calculateTimeRemaining = () => {
-  const targetDate = new Date('2024-10-18T19:00:00-05:00'); // Central Time (CT)
+  const targetDate = new Date('2024-10-06T11:59:00-05:00'); // Central Time (CT)
   const now = new Date();
   const difference = targetDate.getTime() - now.getTime();
 
@@ -48,10 +48,10 @@ onBeforeUnmount(() => {
     <div class="left-body">
       <div class="left-body-text">
         <h1>HACK <br> WASHU‘24</h1>
-        <p>OCT 11-12</p>
+        <p>OCT 18-20</p>
       </div>
       <div class="timer-text">
-        <h2>THE <span class="big"> ADVENTURE </span> BEGINS IN </h2>
+        <h2>SIGN UP FOR <span class="big"> ADVENTURE </span> IN </h2>
       </div>
       <div class="time" v-if="timeRemaining">
         <div class="days">
