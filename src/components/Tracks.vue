@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-<div class="tracks">
+<div class="tracks" id="tracks">
   <div class="left-body">
     <div class="select-text">
       <h1>CHOOSE YOUR CHARACTER</h1>

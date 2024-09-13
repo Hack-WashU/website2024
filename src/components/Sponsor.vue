@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-    <div class="sponsor-parent">
+    <div class="sponsor-parent" id="sponsor">
         <div class="left-sponsor">
             <div class="star-sponsor-img"></div>
             <div class="star-title">STAR</div>

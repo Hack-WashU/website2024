@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-<div class="apply">
+<div class="apply" id="apply">
   <h1 class="title">FULFILL YOUR DESTINY.</h1>
   <div class="apply-button"><a href="https://wustl.az1.qualtrics.com/jfe/form/SV_1YusN9NvNukt3ZY" style="text-decoration: none;">APPLY NOW!!</a></div>
   <p>(PRESS TO START)</p>

@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="about">
+  <div class="about" id="about">
     <div class="p asset1"></div>
     <div class="p asset2"></div>
     <div class="p asset3"></div>
