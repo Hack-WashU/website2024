@@ -4,12 +4,12 @@
 <div class="header">
   <div class="logo"></div>
   <div class="header-right">
-    <a href="#">ABOUT</a>
-    <a href="#">TRACKS</a>
-    <a href="#">SPONSORS</a>
-    <a href="#">FAQ</a>
-    <a href="#">CONTACT</a>
-    <a href="#" class="apply">APPLY</a>
+    <a href="#about">ABOUT</a>
+    <a href="#tracks">TRACKS</a>
+    <a href="#sponsor">SPONSORS</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">CONTACT</a>
+    <a href="#apply" class="apply">APPLY</a>
   </div>
 </div>
 </template>

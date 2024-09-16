@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div class="contact">
+  <div class="contact" id="contact">
     <div class="left-body">
       <h1>CONTACT</h1>
     </div>

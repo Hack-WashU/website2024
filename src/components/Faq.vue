@@ -1,5 +1,5 @@
 <template>
-  <div class="faq">
+  <div class="faq" id="faq">
       <h1 class="title">FREQUENTLY ASKED QUESTIONS</h1>
       <div class="faq-wrapper">
         <div v-for="(item, index) in faqItems" :key="index" class="faq-item">
