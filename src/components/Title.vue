@@ -12,7 +12,7 @@ const timeRemaining = ref<TimeRemaining | null>(null);
 let intervalId: number | null = null;
 
 const calculateTimeRemaining = () => {
-  const targetDate = new Date('2024-10-06T11:59:00-05:00'); // Central Time (CT)
+  const targetDate = new Date('2024-10-09T23:59:00-05:00'); // Central Time (CT)
   const now = new Date();
   const difference = targetDate.getTime() - now.getTime();
 
